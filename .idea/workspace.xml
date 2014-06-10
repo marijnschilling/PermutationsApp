@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cab9b59e-d6c5-4e7e-a652-9c5763978f3e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMFirstViewController.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMFirstViewController.m" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMAppDelegate.m" afterPath="$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMAppDelegate.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PermutationsApp/Source/Design/PRMDesign.h" afterPath="$PROJECT_DIR$/PermutationsApp/Source/Design/PRMDesign.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PermutationsApp/Source/Design/PRMDesign.m" afterPath="$PROJECT_DIR$/PermutationsApp/Source/Design/PRMDesign.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMStartButonViewController.m" afterPath="$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMStartButonViewController.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PermutationsApp.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/PermutationsApp.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/xcode.xml" afterPath="$PROJECT_DIR$/.idea/xcode.xml" />
     </list>
     <ignored path="PermutationsApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,11 +37,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PRMStartButonViewController.m" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PRMStartButonViewController.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMStartButonViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.545977" vertical-offset="240" max-vertical-offset="1242">
-              <caret line="35" column="131" selection-start-line="35" selection-start-column="131" selection-end-line="35" selection-end-column="131" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1272">
+              <caret line="48" column="71" selection-start-line="48" selection-start-column="71" selection-end-line="48" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PRMResultListViewController.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMResultListViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4597701" vertical-offset="0" max-vertical-offset="762">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PRMResultListViewController.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMResultListViewController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="582">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -86,7 +100,7 @@
       <file leaf-file-name="InfoPlist.strings" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PermutationsApp/en.lproj/InfoPlist.strings">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="60">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="537">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -96,8 +110,8 @@
       <file leaf-file-name="Localizable.strings" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../TribalMask/TribalMask/en.lproj/Localizable.strings">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="105">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="597">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -106,17 +120,9 @@
       <file leaf-file-name="PRMAppDelegate.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMAppDelegate.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="585">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-              <folding>
-                <marker date="1402428214000" expanded="true" signature="8:66" placeholder="..." />
-                <marker date="1402428214000" expanded="true" signature="98:962" placeholder="..." />
-                <marker date="1402428214000" expanded="true" signature="121:399" placeholder="{...}" />
-                <marker date="1402428214000" expanded="true" signature="510:593" placeholder="{...}" />
-                <marker date="1402428214000" expanded="true" signature="628:870" placeholder="{...}" />
-                <marker date="1402428214000" expanded="true" signature="763:808" placeholder="@[...]" />
-                <marker date="1402428214000" expanded="true" signature="904:960" placeholder="{...}" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1062">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -134,16 +140,18 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/../TribalMask/TribalMask/en.lproj/Localizable.strings" />
         <option value="$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMAppDelegate.h" />
         <option value="$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMFirstViewController.h" />
         <option value="$PROJECT_DIR$/PermutationsApp/Source/Design/PRMTheme.m" />
         <option value="$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMFirstViewController.m" />
-        <option value="$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMAppDelegate.m" />
         <option value="$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMStartButonViewController.h" />
         <option value="$PROJECT_DIR$/PermutationsApp/Source/Design/PRMDesign.h" />
         <option value="$PROJECT_DIR$/PermutationsApp/Source/Design/PRMDesign.m" />
         <option value="$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMStartButonViewController.m" />
+        <option value="$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMResultListViewController.h" />
+        <option value="$PROJECT_DIR$/../TribalMask/TribalMask/en.lproj/Localizable.strings" />
+        <option value="$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMAppDelegate.m" />
+        <option value="$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMResultListViewController.m" />
       </list>
     </option>
   </component>
@@ -519,30 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="585">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <marker date="1402428214000" expanded="true" signature="8:66" placeholder="..." />
-            <marker date="1402428214000" expanded="true" signature="98:962" placeholder="..." />
-            <marker date="1402428214000" expanded="true" signature="121:399" placeholder="{...}" />
-            <marker date="1402428214000" expanded="true" signature="510:593" placeholder="{...}" />
-            <marker date="1402428214000" expanded="true" signature="628:870" placeholder="{...}" />
-            <marker date="1402428214000" expanded="true" signature="763:808" placeholder="@[...]" />
-            <marker date="1402428214000" expanded="true" signature="904:960" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PermutationsApp/en.lproj/InfoPlist.strings">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="942">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TribalMask/TribalMask/en.lproj/Localizable.strings">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="672">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -552,22 +536,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="709">
           <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMAppDelegate.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1085">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <marker date="1402428214000" expanded="true" signature="8:66" placeholder="..." />
-            <marker date="1402428214000" expanded="true" signature="98:962" placeholder="..." />
-            <marker date="1402428214000" expanded="true" signature="121:399" placeholder="{...}" />
-            <marker date="1402428214000" expanded="true" signature="510:593" placeholder="{...}" />
-            <marker date="1402428214000" expanded="true" signature="628:870" placeholder="{...}" />
-            <marker date="1402428214000" expanded="true" signature="763:808" placeholder="@[...]" />
-            <marker date="1402428214000" expanded="true" signature="904:960" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -587,6 +555,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMResultListViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="582">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermutationsApp/en.lproj/InfoPlist.strings">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="942">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TribalMask/TribalMask/en.lproj/Localizable.strings">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="597">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMAppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1062">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMStartButonViewController.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="552">
@@ -597,8 +597,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMStartButonViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.545977" vertical-offset="240" max-vertical-offset="1242">
-          <caret line="35" column="131" selection-start-line="35" selection-start-column="131" selection-end-line="35" selection-end-column="131" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1272">
+          <caret line="48" column="71" selection-start-line="48" selection-start-column="71" selection-end-line="48" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMResultListViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4597701" vertical-offset="0" max-vertical-offset="762">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>

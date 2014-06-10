@@ -9,7 +9,7 @@
     {
         self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
         _window.backgroundColor = [UIColor whiteColor];
-        _window.tintColor = [UIColor colorWithRed:0 green:255 blue:100 alpha:1];
+        _window.tintColor = [UIColor greenColor];
     }
 
     return _window;

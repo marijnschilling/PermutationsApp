@@ -1,6 +1,7 @@
 #import "PRMStartButonViewController.h"
 #import "PRMDesign.h"
 #import "EEEManualLayout.h"
+#import "PRMResultListViewController.h"
 
 @interface PRMStartButonViewController ()
 @property(nonatomic, strong) UIButton *startButton;
@@ -45,6 +46,7 @@
 
 - (void)didTapStartButton
 {
+    [self.navigationController pushViewController:[[PRMResultListViewController alloc] init] animated:YES];
 }
 
 @end
