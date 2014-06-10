@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D197B50661E793598054240B /* PRMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D197BB15564AE69803C9DE7A /* PRMAppDelegate.m */; };
+		D197B7E1F5B8E80B9436FE7E /* PRMDesign.m in Sources */ = {isa = PBXBuildFile; fileRef = D197BDF5BD790A8BEAAC494C /* PRMDesign.m */; };
+		D197B8560F2962520AC9BEBA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D197B9363390AE7A84736C55 /* Localizable.strings */; };
+		D197BDC6DF05D3DC75D8267E /* PRMFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D197B78F80B35F731721DD29 /* PRMFirstViewController.m */; };
 		E693AB6619478809007CD55F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E693AB6519478809007CD55F /* Foundation.framework */; };
 		E693AB6819478809007CD55F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E693AB6719478809007CD55F /* CoreGraphics.framework */; };
 		E693AB6A19478809007CD55F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E693AB6919478809007CD55F /* UIKit.framework */; };
 		E693AB7019478809007CD55F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E693AB6E19478809007CD55F /* InfoPlist.strings */; };
 		E693AB7219478809007CD55F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E693AB7119478809007CD55F /* main.m */; };
-		E693AB7619478809007CD55F /* PRMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E693AB7519478809007CD55F /* PRMAppDelegate.m */; };
 		E693AB7819478809007CD55F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E693AB7719478809007CD55F /* Images.xcassets */; };
 		E693AB7F19478809007CD55F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E693AB7E19478809007CD55F /* XCTest.framework */; };
 		E693AB8019478809007CD55F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E693AB6519478809007CD55F /* Foundation.framework */; };
@@ -32,6 +35,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D197B208060095D4125B6973 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = ../../TribalMask/TribalMask/en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D197B3F868C66709FBA86D60 /* PRMFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRMFirstViewController.h; sourceTree = "<group>"; };
+		D197B78F80B35F731721DD29 /* PRMFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRMFirstViewController.m; sourceTree = "<group>"; };
+		D197B7967940558ACC9725D8 /* PRMDesign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRMDesign.h; sourceTree = "<group>"; };
+		D197BB15564AE69803C9DE7A /* PRMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRMAppDelegate.m; sourceTree = "<group>"; };
+		D197BDF5BD790A8BEAAC494C /* PRMDesign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRMDesign.m; sourceTree = "<group>"; };
+		D197BF779CDB46410E32F8A0 /* PRMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRMAppDelegate.h; sourceTree = "<group>"; };
 		E693AB6219478809007CD55F /* PermutationsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PermutationsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E693AB6519478809007CD55F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E693AB6719478809007CD55F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -40,8 +50,6 @@
 		E693AB6F19478809007CD55F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E693AB7119478809007CD55F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E693AB7319478809007CD55F /* PermutationsApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PermutationsApp-Prefix.pch"; sourceTree = "<group>"; };
-		E693AB7419478809007CD55F /* PRMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRMAppDelegate.h; sourceTree = "<group>"; };
-		E693AB7519478809007CD55F /* PRMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRMAppDelegate.m; sourceTree = "<group>"; };
 		E693AB7719478809007CD55F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E693AB7D19478809007CD55F /* PermutationsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PermutationsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E693AB7E19478809007CD55F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -74,6 +82,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D197B19C9D715F1A88F1335F /* Application start-up */ = {
+			isa = PBXGroup;
+			children = (
+				D197BB15564AE69803C9DE7A /* PRMAppDelegate.m */,
+				D197BF779CDB46410E32F8A0 /* PRMAppDelegate.h */,
+				D197B78F80B35F731721DD29 /* PRMFirstViewController.m */,
+				D197B3F868C66709FBA86D60 /* PRMFirstViewController.h */,
+			);
+			path = "Application start-up";
+			sourceTree = "<group>";
+		};
+		D197B9FC8EF759D90DEB5203 /* Model repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model repository";
+			sourceTree = "<group>";
+		};
+		D197BAF0B45F7BE3B2017C97 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				D197BDF5BD790A8BEAAC494C /* PRMDesign.m */,
+				D197B7967940558ACC9725D8 /* PRMDesign.h */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		D197BBE82AD766B51883EB5E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D197B19C9D715F1A88F1335F /* Application start-up */,
+				D197BAF0B45F7BE3B2017C97 /* Design */,
+				D197B9FC8EF759D90DEB5203 /* Model repository */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		E693AB5919478809007CD55F = {
 			isa = PBXGroup;
 			children = (
@@ -107,10 +152,9 @@
 		E693AB6B19478809007CD55F /* PermutationsApp */ = {
 			isa = PBXGroup;
 			children = (
-				E693AB7419478809007CD55F /* PRMAppDelegate.h */,
-				E693AB7519478809007CD55F /* PRMAppDelegate.m */,
 				E693AB7719478809007CD55F /* Images.xcassets */,
 				E693AB6C19478809007CD55F /* Supporting Files */,
+				D197BBE82AD766B51883EB5E /* Source */,
 			);
 			path = PermutationsApp;
 			sourceTree = "<group>";
@@ -122,6 +166,7 @@
 				E693AB6E19478809007CD55F /* InfoPlist.strings */,
 				E693AB7119478809007CD55F /* main.m */,
 				E693AB7319478809007CD55F /* PermutationsApp-Prefix.pch */,
+				D197B9363390AE7A84736C55 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -222,6 +267,7 @@
 			files = (
 				E693AB7019478809007CD55F /* InfoPlist.strings in Resources */,
 				E693AB7819478809007CD55F /* Images.xcassets in Resources */,
+				D197B8560F2962520AC9BEBA /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +286,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E693AB7619478809007CD55F /* PRMAppDelegate.m in Sources */,
 				E693AB7219478809007CD55F /* main.m in Sources */,
+				D197B50661E793598054240B /* PRMAppDelegate.m in Sources */,
+				D197BDC6DF05D3DC75D8267E /* PRMFirstViewController.m in Sources */,
+				D197B7E1F5B8E80B9436FE7E /* PRMDesign.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +312,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		D197B9363390AE7A84736C55 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D197B208060095D4125B6973 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		E693AB6E19478809007CD55F /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
