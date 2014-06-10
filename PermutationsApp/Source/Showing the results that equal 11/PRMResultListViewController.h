@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-@interface PRMResultListViewController : UITableViewController
+@interface PRMResultListViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource>
 
 
 @end
