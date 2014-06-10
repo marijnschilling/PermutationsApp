@@ -1,5 +1,5 @@
 #import "PRMAppDelegate.h"
-#import "PRMFirstViewController.h"
+#import "PRMStartButonViewController.h"
 
 @implementation PRMAppDelegate
 
@@ -24,7 +24,7 @@
 - (void)assignRootViewController
 {
     UINavigationController *navigationController = [[UINavigationController alloc] init];
-    navigationController.viewControllers = @[[[PRMFirstViewController alloc] init]];
+    navigationController.viewControllers = @[[[PRMStartButonViewController alloc] init]];
     self.window.rootViewController = navigationController;
 }
 

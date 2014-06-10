@@ -1,3 +1,3 @@
 #import "PRMDesign.h"
 
-CGFloat const PRMDesignButtonHeight = 44.0;
+CGFloat const PRMDesignButtonSize = 200.0;
