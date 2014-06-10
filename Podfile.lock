@@ -1,0 +1,80 @@
+PODS:
+  - AFNetworking (2.2.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.2.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.2.4):
+    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (2.2.4)
+  - AFNetworking/Security (2.2.4)
+  - AFNetworking/Serialization (2.2.4)
+  - AFNetworking/UIKit (2.2.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - EEEInjector (1.0.1)
+  - EEEManualLayout (0.1.2)
+  - EEEOperationCenter (1.0.0):
+    - EEEInjector (~> 1.0)
+  - Kiwi/ARC (2.2.4)
+  - Kiwi/NonARC (2.2.4)
+  - Kiwi/XCTest (2.2.4):
+    - Kiwi/ARC
+    - Kiwi/NonARC
+  - TwelveTwentyToolkit (0.6.1):
+    - TwelveTwentyToolkit/Core
+    - TwelveTwentyToolkit/CoreAnimation
+    - TwelveTwentyToolkit/CoreData
+    - TwelveTwentyToolkit/CyclicDelegateRetainer
+    - TwelveTwentyToolkit/Foundation
+    - TwelveTwentyToolkit/Layout
+    - TwelveTwentyToolkit/Logging
+    - TwelveTwentyToolkit/Persistence
+    - TwelveTwentyToolkit/Tables
+    - TwelveTwentyToolkit/Theming
+  - TwelveTwentyToolkit/Core (0.6.1)
+  - TwelveTwentyToolkit/CoreAnimation (0.6.1):
+    - TwelveTwentyToolkit/Foundation
+    - TwelveTwentyToolkit/Logging
+  - TwelveTwentyToolkit/CoreData (0.6.1):
+    - TwelveTwentyToolkit/Logging
+  - TwelveTwentyToolkit/CyclicDelegateRetainer (0.6.1)
+  - TwelveTwentyToolkit/Foundation (0.6.1):
+    - TwelveTwentyToolkit/Core
+  - TwelveTwentyToolkit/Layout (0.6.1):
+    - EEEManualLayout
+    - TwelveTwentyToolkit/CoreData
+    - TwelveTwentyToolkit/Logging
+  - TwelveTwentyToolkit/Logging (0.6.1):
+    - TwelveTwentyToolkit/Foundation
+  - TwelveTwentyToolkit/Persistence (0.6.1):
+    - TwelveTwentyToolkit/CoreData
+    - TwelveTwentyToolkit/Foundation
+  - TwelveTwentyToolkit/Tables (0.6.1):
+    - TwelveTwentyToolkit/CoreData
+  - TwelveTwentyToolkit/Theming (0.6.1):
+    - TwelveTwentyToolkit/Foundation
+    - TwelveTwentyToolkit/Layout
+
+DEPENDENCIES:
+  - AFNetworking
+  - EEEManualLayout
+  - EEEOperationCenter
+  - Kiwi/XCTest
+  - TwelveTwentyToolkit
+
+SPEC CHECKSUMS:
+  AFNetworking: ab63e259fe91eef4519b371ef0a4955af0e73e64
+  EEEInjector: 6c8d2afe0047fb171cc1523ede46c6742bc02b79
+  EEEManualLayout: cacafc289718ec438686b339b9ac4388193e7fe4
+  EEEOperationCenter: 0c147525095a8705d57fbef774cfa45db4dd25a7
+  Kiwi: c73667f2b84cbf36f1a3830267c5a4ae8dcbd8ba
+  TwelveTwentyToolkit: bb8f651776b58ff60cf03cf8ea33a66374f99ea5
+
+COCOAPODS: 0.32.1
