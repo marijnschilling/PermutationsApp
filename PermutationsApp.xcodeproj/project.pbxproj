@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E693AB6619478809007CD55F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E693AB6519478809007CD55F /* Foundation.framework */; };
+		E693AB6819478809007CD55F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E693AB6719478809007CD55F /* CoreGraphics.framework */; };
+		E693AB6A19478809007CD55F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E693AB6919478809007CD55F /* UIKit.framework */; };
+		E693AB7019478809007CD55F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E693AB6E19478809007CD55F /* InfoPlist.strings */; };
+		E693AB7219478809007CD55F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E693AB7119478809007CD55F /* main.m */; };
+		E693AB7619478809007CD55F /* PRMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E693AB7519478809007CD55F /* PRMAppDelegate.m */; };
+		E693AB7819478809007CD55F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E693AB7719478809007CD55F /* Images.xcassets */; };
+		E693AB7F19478809007CD55F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E693AB7E19478809007CD55F /* XCTest.framework */; };
+		E693AB8019478809007CD55F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E693AB6519478809007CD55F /* Foundation.framework */; };
+		E693AB8119478809007CD55F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E693AB6919478809007CD55F /* UIKit.framework */; };
+		E693AB8919478809007CD55F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E693AB8719478809007CD55F /* InfoPlist.strings */; };
+		E693AB8B19478809007CD55F /* PermutationsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E693AB8A19478809007CD55F /* PermutationsAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E693AB8219478809007CD55F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E693AB5A19478809007CD55F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E693AB6119478809007CD55F;
+			remoteInfo = PermutationsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E693AB6219478809007CD55F /* PermutationsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PermutationsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E693AB6519478809007CD55F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E693AB6719478809007CD55F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E693AB6919478809007CD55F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E693AB6D19478809007CD55F /* PermutationsApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PermutationsApp-Info.plist"; sourceTree = "<group>"; };
+		E693AB6F19478809007CD55F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E693AB7119478809007CD55F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E693AB7319478809007CD55F /* PermutationsApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PermutationsApp-Prefix.pch"; sourceTree = "<group>"; };
+		E693AB7419478809007CD55F /* PRMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRMAppDelegate.h; sourceTree = "<group>"; };
+		E693AB7519478809007CD55F /* PRMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRMAppDelegate.m; sourceTree = "<group>"; };
+		E693AB7719478809007CD55F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E693AB7D19478809007CD55F /* PermutationsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PermutationsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E693AB7E19478809007CD55F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E693AB8619478809007CD55F /* PermutationsAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PermutationsAppTests-Info.plist"; sourceTree = "<group>"; };
+		E693AB8819478809007CD55F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E693AB8A19478809007CD55F /* PermutationsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PermutationsAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E693AB5F19478809007CD55F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E693AB6819478809007CD55F /* CoreGraphics.framework in Frameworks */,
+				E693AB6A19478809007CD55F /* UIKit.framework in Frameworks */,
+				E693AB6619478809007CD55F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E693AB7A19478809007CD55F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E693AB7F19478809007CD55F /* XCTest.framework in Frameworks */,
+				E693AB8119478809007CD55F /* UIKit.framework in Frameworks */,
+				E693AB8019478809007CD55F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E693AB5919478809007CD55F = {
+			isa = PBXGroup;
+			children = (
+				E693AB6B19478809007CD55F /* PermutationsApp */,
+				E693AB8419478809007CD55F /* PermutationsAppTests */,
+				E693AB6419478809007CD55F /* Frameworks */,
+				E693AB6319478809007CD55F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E693AB6319478809007CD55F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E693AB6219478809007CD55F /* PermutationsApp.app */,
+				E693AB7D19478809007CD55F /* PermutationsAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E693AB6419478809007CD55F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E693AB6519478809007CD55F /* Foundation.framework */,
+				E693AB6719478809007CD55F /* CoreGraphics.framework */,
+				E693AB6919478809007CD55F /* UIKit.framework */,
+				E693AB7E19478809007CD55F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E693AB6B19478809007CD55F /* PermutationsApp */ = {
+			isa = PBXGroup;
+			children = (
+				E693AB7419478809007CD55F /* PRMAppDelegate.h */,
+				E693AB7519478809007CD55F /* PRMAppDelegate.m */,
+				E693AB7719478809007CD55F /* Images.xcassets */,
+				E693AB6C19478809007CD55F /* Supporting Files */,
+			);
+			path = PermutationsApp;
+			sourceTree = "<group>";
+		};
+		E693AB6C19478809007CD55F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E693AB6D19478809007CD55F /* PermutationsApp-Info.plist */,
+				E693AB6E19478809007CD55F /* InfoPlist.strings */,
+				E693AB7119478809007CD55F /* main.m */,
+				E693AB7319478809007CD55F /* PermutationsApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E693AB8419478809007CD55F /* PermutationsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E693AB8A19478809007CD55F /* PermutationsAppTests.m */,
+				E693AB8519478809007CD55F /* Supporting Files */,
+			);
+			path = PermutationsAppTests;
+			sourceTree = "<group>";
+		};
+		E693AB8519478809007CD55F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E693AB8619478809007CD55F /* PermutationsAppTests-Info.plist */,
+				E693AB8719478809007CD55F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E693AB6119478809007CD55F /* PermutationsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E693AB8E19478809007CD55F /* Build configuration list for PBXNativeTarget "PermutationsApp" */;
+			buildPhases = (
+				E693AB5E19478809007CD55F /* Sources */,
+				E693AB5F19478809007CD55F /* Frameworks */,
+				E693AB6019478809007CD55F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PermutationsApp;
+			productName = PermutationsApp;
+			productReference = E693AB6219478809007CD55F /* PermutationsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E693AB7C19478809007CD55F /* PermutationsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E693AB9119478809007CD55F /* Build configuration list for PBXNativeTarget "PermutationsAppTests" */;
+			buildPhases = (
+				E693AB7919478809007CD55F /* Sources */,
+				E693AB7A19478809007CD55F /* Frameworks */,
+				E693AB7B19478809007CD55F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E693AB8319478809007CD55F /* PBXTargetDependency */,
+			);
+			name = PermutationsAppTests;
+			productName = PermutationsAppTests;
+			productReference = E693AB7D19478809007CD55F /* PermutationsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E693AB5A19478809007CD55F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PRM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ACDME;
+				TargetAttributes = {
+					E693AB7C19478809007CD55F = {
+						TestTargetID = E693AB6119478809007CD55F;
+					};
+				};
+			};
+			buildConfigurationList = E693AB5D19478809007CD55F /* Build configuration list for PBXProject "PermutationsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E693AB5919478809007CD55F;
+			productRefGroup = E693AB6319478809007CD55F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E693AB6119478809007CD55F /* PermutationsApp */,
+				E693AB7C19478809007CD55F /* PermutationsAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E693AB6019478809007CD55F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E693AB7019478809007CD55F /* InfoPlist.strings in Resources */,
+				E693AB7819478809007CD55F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E693AB7B19478809007CD55F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E693AB8919478809007CD55F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E693AB5E19478809007CD55F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E693AB7619478809007CD55F /* PRMAppDelegate.m in Sources */,
+				E693AB7219478809007CD55F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E693AB7919478809007CD55F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E693AB8B19478809007CD55F /* PermutationsAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E693AB8319478809007CD55F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E693AB6119478809007CD55F /* PermutationsApp */;
+			targetProxy = E693AB8219478809007CD55F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E693AB6E19478809007CD55F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E693AB6F19478809007CD55F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E693AB8719478809007CD55F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E693AB8819478809007CD55F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E693AB8C19478809007CD55F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E693AB8D19478809007CD55F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E693AB8F19478809007CD55F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PermutationsApp/PermutationsApp-Prefix.pch";
+				INFOPLIST_FILE = "PermutationsApp/PermutationsApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E693AB9019478809007CD55F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PermutationsApp/PermutationsApp-Prefix.pch";
+				INFOPLIST_FILE = "PermutationsApp/PermutationsApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E693AB9219478809007CD55F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PermutationsApp.app/PermutationsApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PermutationsApp/PermutationsApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PermutationsAppTests/PermutationsAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E693AB9319478809007CD55F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PermutationsApp.app/PermutationsApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PermutationsApp/PermutationsApp-Prefix.pch";
+				INFOPLIST_FILE = "PermutationsAppTests/PermutationsAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E693AB5D19478809007CD55F /* Build configuration list for PBXProject "PermutationsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E693AB8C19478809007CD55F /* Debug */,
+				E693AB8D19478809007CD55F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E693AB8E19478809007CD55F /* Build configuration list for PBXNativeTarget "PermutationsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E693AB8F19478809007CD55F /* Debug */,
+				E693AB9019478809007CD55F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E693AB9119478809007CD55F /* Build configuration list for PBXNativeTarget "PermutationsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E693AB9219478809007CD55F /* Debug */,
+				E693AB9319478809007CD55F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E693AB5A19478809007CD55F /* Project object */;
+}
