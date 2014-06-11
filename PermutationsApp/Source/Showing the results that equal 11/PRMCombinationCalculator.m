@@ -55,7 +55,8 @@
 
     if ([result isEqualToString:@"11"])
     {
-        NSLog(@"11 gevonden!");
+        NSLog(@"11 gevonden! with %@", calculation);
+        [self.delegate addValidCalculationToResultArray:calculation];
     }
 }
 
