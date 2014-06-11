@@ -1,5 +1,6 @@
 #import "PRMAppDelegate.h"
 #import "PRMStartButonViewController.h"
+#import "PRMPermutationCreator.h"
 
 @implementation PRMAppDelegate
 
@@ -25,6 +26,7 @@
 {
     UINavigationController *navigationController = [[UINavigationController alloc] init];
     navigationController.viewControllers = @[[[PRMStartButonViewController alloc] init]];
+
     self.window.rootViewController = navigationController;
 }
 

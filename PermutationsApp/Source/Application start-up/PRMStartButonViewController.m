@@ -2,9 +2,15 @@
 #import "PRMDesign.h"
 #import "EEEManualLayout.h"
 #import "PRMResultListViewController.h"
+#import "PRMPermutationCreator.h"
+#import "PRMCombinationCalculator.h"
 
 @interface PRMStartButonViewController ()
+
 @property(nonatomic, strong) UIButton *startButton;
+
+@property(nonatomic, strong) NSMutableArray *numberPermutations;
+@property(nonatomic, strong) NSMutableArray *operationPermutations;
 @end
 
 @implementation PRMStartButonViewController
@@ -40,12 +46,23 @@
     self.startButton.layer.cornerRadius = PRMDesignButtonSize / 2;
     self.startButton.layer.masksToBounds = YES;
 
+    self.startButton.enabled = NO;
+
+    PRMPermutationCreator *permutationCreator = [[PRMPermutationCreator alloc] init];
+    //Main thread is blocked, its a NO-GO but the quickest solution for now
+    self.numberPermutations = [permutationCreator findNumberPermutations];
+    self.operationPermutations = [permutationCreator findOperatorPermutations];
+
+    self.startButton.enabled = YES;
+
     [self.startButton addTarget:self action:@selector(didTapStartButton) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:self.startButton];
 }
 
 - (void)didTapStartButton
 {
+    PRMCombinationCalculator *combinationCalculator = [[PRMCombinationCalculator alloc] init];
+    [combinationCalculator startCalculatingWithNumberPermutations: self.numberPermutations operatorPermutations:self.operationPermutations];
     [self.navigationController pushViewController:[[PRMResultListViewController alloc] init] animated:YES];
 }
 
