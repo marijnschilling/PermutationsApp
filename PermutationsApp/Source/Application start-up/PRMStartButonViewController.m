@@ -3,6 +3,7 @@
 #import "EEEManualLayout.h"
 #import "PRMResultListViewController.h"
 #import "PRMPermutationCreator.h"
+#import "PRMCombinationCalculator.h"
 
 @interface PRMStartButonViewController ()
 
@@ -60,6 +61,8 @@
 
 - (void)didTapStartButton
 {
+    PRMCombinationCalculator *combinationCalculator = [[PRMCombinationCalculator alloc] init];
+    [combinationCalculator startCalculatingWithNumberPermutations: self.numberPermutations operatorPermutations:self.operationPermutations];
     [self.navigationController pushViewController:[[PRMResultListViewController alloc] init] animated:YES];
 }
 
