@@ -65,7 +65,8 @@
                 for (NSUInteger l = 0; l < [self.operators count]; l++)
                 {
                     NSArray *operationsPermutation;
-                    operationsPermutation = @[@[self.operators[i]], @[self.operators[j]], @[self.operators[k]], @[self.operators[l]]];
+                    operationsPermutation = @[self.operators[i], self.operators[j], self.operators[k], self.operators[l]];
+
                     [self.operationPermutations addObject:operationsPermutation];
                 }
             }
