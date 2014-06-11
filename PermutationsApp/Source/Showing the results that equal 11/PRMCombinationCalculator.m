@@ -48,7 +48,7 @@
     NSString *o2 = operations[1];
     NSString *o3 = operations[2];
     NSString *o4 = operations[3];
-    NSString *calculation = [NSString stringWithFormat:@"%@,%@,%@,%@,%@,%@,%@,%@,%@", n1, o1, n2, o2, n3, o3, n4, o4, n5];
+    NSString *calculation = [NSString stringWithFormat:@"%@%@%@%@%@%@%@%@%@", n1, o1, n2, o2, n3, o3, n4, o4, n5];
 
     NSString *javaScriptString = [NSString stringWithFormat:@"eval(%@)", calculation];
     NSString *result = [self.webview stringByEvaluatingJavaScriptFromString:javaScriptString];
