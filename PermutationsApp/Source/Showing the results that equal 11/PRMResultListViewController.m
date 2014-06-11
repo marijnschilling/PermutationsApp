@@ -34,7 +34,7 @@
     cell.textLabel.text = [self.correctAnswersArray objectAtIndex:indexPath.row];
     cell.detailTextLabel.text = @"More text";
 
-    cell.accessoryType =  UITableViewCellAccessoryDisclosureIndicator;
+    cell.accessoryType =  UITableViewCellAccessoryDetailButton;
 
     return cell;
 }
