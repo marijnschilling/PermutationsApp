@@ -32,8 +32,6 @@
 
     [self findOperatorPermutations];
     NSLog(@"number of operation permutations %u", [self.operationPermutations count]);
-
-    [self.delegate foundAllPermutations];
 }
 
 - (void)findNumberPermutationsRecursivelyfromLeftover:(NSMutableArray *)leftover andResult:(NSMutableArray *)result

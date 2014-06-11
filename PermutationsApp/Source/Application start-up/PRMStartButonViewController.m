@@ -4,7 +4,7 @@
 #import "PRMResultListViewController.h"
 #import "PRMCreatePermutationLists.h"
 
-@interface PRMStartButonViewController () <PRMCreatePermutationListsDelegate>
+@interface PRMStartButonViewController ()
 
 @property(nonatomic, strong) UIButton *startButton;
 
@@ -20,13 +20,12 @@
     {
         self.title = NSLocalizedString(@"FIRST_TITLE", @"Permutations");
         PRMCreatePermutationLists *test = [[PRMCreatePermutationLists alloc] init];
-//        [test performSelectorInBackground:@selector(execute) withObject:@"test"];
 
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
             [test execute];
 
             dispatch_async(dispatch_get_main_queue(), ^{
-                [self foundAllPermutationsLocal];
+                [self foundAllPermutations];
             });
 
         });
@@ -65,7 +64,7 @@
     [self.navigationController pushViewController:[[PRMResultListViewController alloc] init] animated:YES];
 }
 
-- (void)foundAllPermutationsLocal
+- (void)foundAllPermutations
 {
     self.startButton.enabled = YES;
 }
