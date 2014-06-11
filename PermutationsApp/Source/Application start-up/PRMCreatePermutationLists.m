@@ -24,27 +24,22 @@
 
 - (void)execute
 {
-    [self findNumberPermutations:self.numbers succesBlock:^(){
-        [self findOperatorPermutations:self.operators succesBlock:^(){
-            [self.delegate foundAllPermutations];
-        }];
-    }];
-}
-
-- (void)findNumberPermutations:(NSArray *)numbers succesBlock:(void (^)())succes
-{
     NSMutableArray *result = [NSMutableArray array];
     NSMutableArray *leftover = [self.numbers mutableCopy];
-    [self findPermutationsRecursivelyfromLeftover:leftover andResult:result];
-    succes();
+    [self findNumberPermutationsRecursivelyfromLeftover:leftover andResult:result];
+    NSLog(@"Found %@", self.numberPermutations);
+//    [self findOperatorPermutationsRecursively]
+
+    [self.delegate foundAllPermutations];
 }
 
-- (void)findPermutationsRecursivelyfromLeftover:(NSMutableArray *)leftover andResult:(NSMutableArray *)result
+
+
+- (void)findNumberPermutationsRecursivelyfromLeftover:(NSMutableArray *)leftover andResult:(NSMutableArray *)result
 {
     if([leftover count] == 0)
     {
         [self.numberPermutations addObject:result];
-        NSLog(@"found %@", result);
     }
     else
     {
@@ -56,14 +51,9 @@
             [resultCopy addObject:leftoverCopy[i]];
             [leftoverCopy removeObjectAtIndex:i];
 
-            [self findPermutationsRecursivelyfromLeftover:leftoverCopy andResult:resultCopy];
+            [self findNumberPermutationsRecursivelyfromLeftover:leftoverCopy andResult:resultCopy];
         }
     }
-}
-
-- (void)findOperatorPermutations:(NSArray *)operators succesBlock:(void (^)())succes
-{
-
 }
 
 @end
