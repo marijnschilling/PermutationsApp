@@ -1,6 +1,6 @@
 #import "PRMAppDelegate.h"
 #import "PRMStartButonViewController.h"
-#import "PRMCreatePermutationLists.h"
+#import "PRMPermutationCreator.h"
 
 @implementation PRMAppDelegate
 

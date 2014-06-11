@@ -2,12 +2,14 @@
 #import "PRMDesign.h"
 #import "EEEManualLayout.h"
 #import "PRMResultListViewController.h"
-#import "PRMCreatePermutationLists.h"
+#import "PRMPermutationCreator.h"
 
 @interface PRMStartButonViewController ()
 
 @property(nonatomic, strong) UIButton *startButton;
 
+@property(nonatomic, strong) NSMutableArray *numberPermutations;
+@property(nonatomic, strong) NSMutableArray *operationPermutations;
 @end
 
 @implementation PRMStartButonViewController
@@ -19,16 +21,6 @@
     if (self)
     {
         self.title = NSLocalizedString(@"FIRST_TITLE", @"Permutations");
-        PRMCreatePermutationLists *test = [[PRMCreatePermutationLists alloc] init];
-
-        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-            [test execute];
-
-            dispatch_async(dispatch_get_main_queue(), ^{
-                [self foundAllPermutations];
-            });
-
-        });
     }
 
     return self;
@@ -55,6 +47,13 @@
 
     self.startButton.enabled = NO;
 
+    PRMPermutationCreator *permutationCreator = [[PRMPermutationCreator alloc] init];
+    //Main thread is blocked, its a NO-GO but the quickest solution for now
+    self.numberPermutations = [permutationCreator findNumberPermutations];
+    self.operationPermutations = [permutationCreator findOperatorPermutations];
+
+    self.startButton.enabled = YES;
+
     [self.startButton addTarget:self action:@selector(didTapStartButton) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:self.startButton];
 }
@@ -62,11 +61,6 @@
 - (void)didTapStartButton
 {
     [self.navigationController pushViewController:[[PRMResultListViewController alloc] init] animated:YES];
-}
-
-- (void)foundAllPermutations
-{
-    self.startButton.enabled = YES;
 }
 
 @end
