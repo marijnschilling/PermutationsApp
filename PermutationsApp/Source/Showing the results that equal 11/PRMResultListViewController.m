@@ -14,7 +14,6 @@
     if (self)
     {
         self.title = NSLocalizedString(@"TABLEVIEW__TITLE", nil);
-        self.navigationItem.hidesBackButton = YES;
         self.tableView = [[UITableView alloc] init];
         self.tableView.delegate = self;
         self.tableView.dataSource = self;
@@ -36,7 +35,7 @@
 
     NSString *correctAnswer = [self.correctAnswersArray objectAtIndex:(NSUInteger) indexPath.row];
     cell.textLabel.text = [NSString stringWithFormat:@"%@ = 11", correctAnswer];
-    cell.accessoryType = UITableViewCellAccessoryDetailButton;
+    cell.accessoryType = UITableViewCellAccessoryCheckmark;
 
     return cell;
 }
