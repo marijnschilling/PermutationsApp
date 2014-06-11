@@ -1,13 +1,13 @@
-#import "PRMCreatePermutationLists.h"
+#import "PRMPermutationCreator.h"
 
-@interface PRMCreatePermutationLists ()
+@interface PRMPermutationCreator ()
 @property(nonatomic, strong) NSArray *numbers;
 @property(nonatomic, strong) NSArray *operators;
 @property(nonatomic, strong) NSMutableArray *numberPermutations;
 @property(nonatomic, strong) NSMutableArray *operationPermutations;
 @end
 
-@implementation PRMCreatePermutationLists
+@implementation PRMPermutationCreator
 
 - (id)init
 {
@@ -24,14 +24,13 @@
     return self;
 }
 
-- (void)execute
+-(NSMutableArray *)findNumberPermutations
 {
     NSMutableArray *result = [NSMutableArray array];
     NSMutableArray *leftover = [self.numbers mutableCopy];
     [self findNumberPermutationsRecursivelyfromLeftover:leftover andResult:result];
 
-    [self findOperatorPermutations];
-    NSLog(@"number of operation permutations %u", [self.operationPermutations count]);
+    return self.numberPermutations;
 }
 
 - (void)findNumberPermutationsRecursivelyfromLeftover:(NSMutableArray *)leftover andResult:(NSMutableArray *)result
@@ -55,7 +54,7 @@
     }
 }
 
-- (void)findOperatorPermutations
+- (NSMutableArray *)findOperatorPermutations
 {
     for (NSUInteger i = 0; i < [self.operators count]; i++)
     {
@@ -72,6 +71,8 @@
             }
         }
     }
+
+    return self.operationPermutations;
 }
 
 @end
