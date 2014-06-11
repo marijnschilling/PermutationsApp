@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cab9b59e-d6c5-4e7e-a652-9c5763978f3e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMResultListViewController.m" afterPath="$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMResultListViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marijnschilling.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marijnschilling.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PermutationsApp.xcworkspace/xcuserdata/marijnschilling.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/PermutationsApp.xcworkspace/xcuserdata/marijnschilling.xcuserdatad/UserInterfaceState.xcuserstate" />
     </list>
     <ignored path="PermutationsApp.iws" />
     <ignored path=".idea/workspace.xml" />
