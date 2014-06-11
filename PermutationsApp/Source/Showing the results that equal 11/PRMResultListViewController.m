@@ -1,8 +1,8 @@
 #import "PRMResultListViewController.h"
-#import "PRMAnswerViewCell.h"
 
 @interface PRMResultListViewController ()
 
+@property(nonatomic, strong) id correctAnswersArray;
 @end
 
 @implementation PRMResultListViewController
@@ -23,14 +23,18 @@
     return self;
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    PRMAnswerViewCell *cell = [tableView dequeueReusableCellWithIdentifier:PRMAnswerViewCellIdentifier forIndexPath:indexPath];
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    static NSString *CellIdentifier = @"Cell";
 
-    if(cell == nil)
-    {
-        [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:PRMAnswerViewCellIdentifier];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
+
+    cell.textLabel.text = [self.correctAnswersArray objectAtIndex:indexPath.row];
+    cell.detailTextLabel.text = @"More text";
+
+    cell.accessoryType =  UITableViewCellAccessoryDisclosureIndicator;
 
     return cell;
 }

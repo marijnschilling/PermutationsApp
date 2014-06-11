@@ -2,5 +2,4 @@
 
 @interface PRMResultListViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource>
 
-
 @end
