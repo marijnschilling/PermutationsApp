@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cab9b59e-d6c5-4e7e-a652-9c5763978f3e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMCombinationCalculator.h" afterPath="$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMCombinationCalculator.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMCombinationCalculator.m" afterPath="$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMCombinationCalculator.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMResultListViewController.h" afterPath="$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMResultListViewController.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMResultListViewController.m" afterPath="$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMResultListViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMStartButonViewController.m" afterPath="$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMStartButonViewController.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marijnschilling.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marijnschilling.xcuserdatad/xcschemes/xcschememanagement.plist" />
     </list>
     <ignored path="PermutationsApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,21 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PRMResultListViewController.m" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PRMResultListViewController.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMResultListViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1594">
-              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.30321285" vertical-offset="299" max-vertical-offset="1203">
+              <caret line="30" column="89" selection-start-line="30" selection-start-column="89" selection-end-line="30" selection-end-column="89" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PRMStartButonViewController.m" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PRMStartButonViewController.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMStartButonViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8453815" vertical-offset="584" max-vertical-offset="1548">
-              <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="404" max-vertical-offset="1548">
+              <caret line="53" column="79" selection-start-line="53" selection-start-column="79" selection-end-line="53" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -146,8 +143,8 @@
         <option value="$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMPermutationCreator.m" />
         <option value="$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMCombinationCalculator.h" />
         <option value="$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMCombinationCalculator.m" />
-        <option value="$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMResultListViewController.m" />
         <option value="$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMStartButonViewController.m" />
+        <option value="$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMResultListViewController.m" />
       </list>
     </option>
   </component>
@@ -760,18 +757,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMResultListViewController.m">
+    <entry file="file://$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMStartButonViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1594">
-          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="404" max-vertical-offset="1548">
+          <caret line="53" column="79" selection-start-line="53" selection-start-column="79" selection-end-line="53" selection-end-column="79" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMStartButonViewController.m">
+    <entry file="file://$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMResultListViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8453815" vertical-offset="584" max-vertical-offset="1548">
-          <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.30321285" vertical-offset="299" max-vertical-offset="1203">
+          <caret line="30" column="89" selection-start-line="30" selection-start-column="89" selection-end-line="30" selection-end-column="89" />
           <folding />
         </state>
       </provider>

@@ -2,7 +2,7 @@
 
 @interface PRMResultListViewController ()
 
-@property(nonatomic, strong) NSMutableArray * correctAnswersArray;
+@property(nonatomic, strong) NSMutableArray *correctAnswersArray;
 @end
 
 @implementation PRMResultListViewController
@@ -24,21 +24,22 @@
     return self;
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
     static NSString *CellIdentifier = @"Cell";
 
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
+    if (cell == nil)
+    {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
 
-    cell.textLabel.text = [self.correctAnswersArray objectAtIndex:(NSUInteger) indexPath.row];
-    cell.accessoryType =  UITableViewCellAccessoryDetailButton;
+    NSString *correctAnswer = [self.correctAnswersArray objectAtIndex:(NSUInteger) indexPath.row];
+    cell.textLabel.text = [NSString stringWithFormat:@"%@ = 11", correctAnswer];
+    cell.accessoryType = UITableViewCellAccessoryDetailButton;
 
     return cell;
 }
-
-
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
