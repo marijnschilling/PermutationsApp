@@ -2,7 +2,7 @@
 
 @interface PRMResultListViewController ()
 
-@property(nonatomic, strong) id correctAnswersArray;
+@property(nonatomic, strong) NSMutableArray * correctAnswersArray;
 @end
 
 @implementation PRMResultListViewController
@@ -31,9 +31,7 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
 
-    cell.textLabel.text = [self.correctAnswersArray objectAtIndex:indexPath.row];
-    cell.detailTextLabel.text = @"More text";
-
+    cell.textLabel.text = [self.correctAnswersArray objectAtIndex:(NSUInteger) indexPath.row];
     cell.accessoryType =  UITableViewCellAccessoryDetailButton;
 
     return cell;
@@ -41,7 +39,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 24;
+    return [self.correctAnswersArray count];
 }
 
 @end

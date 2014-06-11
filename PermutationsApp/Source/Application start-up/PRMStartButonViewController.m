@@ -2,9 +2,12 @@
 #import "PRMDesign.h"
 #import "EEEManualLayout.h"
 #import "PRMResultListViewController.h"
+#import "PRMCreatePermutationLists.h"
 
-@interface PRMStartButonViewController ()
+@interface PRMStartButonViewController () <PRMCreatePermutationListsDelegate>
+
 @property(nonatomic, strong) UIButton *startButton;
+
 @end
 
 @implementation PRMStartButonViewController
@@ -16,6 +19,8 @@
     if (self)
     {
         self.title = NSLocalizedString(@"FIRST_TITLE", @"Permutations");
+        PRMCreatePermutationLists *test = [[PRMCreatePermutationLists alloc] init];
+        [test execute];
     }
 
     return self;
@@ -40,6 +45,8 @@
     self.startButton.layer.cornerRadius = PRMDesignButtonSize / 2;
     self.startButton.layer.masksToBounds = YES;
 
+    self.startButton.enabled = NO;
+
     [self.startButton addTarget:self action:@selector(didTapStartButton) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:self.startButton];
 }
@@ -47,6 +54,11 @@
 - (void)didTapStartButton
 {
     [self.navigationController pushViewController:[[PRMResultListViewController alloc] init] animated:YES];
+}
+
+- (void)foundAllPermutations
+{
+    self.startButton.enabled = YES;
 }
 
 @end
