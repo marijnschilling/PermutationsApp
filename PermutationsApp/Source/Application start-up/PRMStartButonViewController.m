@@ -62,8 +62,11 @@
 - (void)didTapStartButton
 {
     PRMCombinationCalculator *combinationCalculator = [[PRMCombinationCalculator alloc] init];
-    [combinationCalculator startCalculatingWithNumberPermutations: self.numberPermutations operatorPermutations:self.operationPermutations];
-    [self.navigationController pushViewController:[[PRMResultListViewController alloc] init] animated:YES];
+    NSMutableArray *results = [combinationCalculator startCalculatingWithNumberPermutations: self.numberPermutations operatorPermutations:self.operationPermutations];
+
+    PRMResultListViewController *resultListViewController = [[PRMResultListViewController alloc] initWithResults: results];
+    
+    [self.navigationController pushViewController:resultListViewController animated:YES];
 }
 
 @end

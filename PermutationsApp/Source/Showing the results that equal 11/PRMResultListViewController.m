@@ -7,7 +7,7 @@
 
 @implementation PRMResultListViewController
 
-- (id)init
+- (id)initWithResults:(NSMutableArray *)results
 {
     self = [super initWithStyle:UITableViewStyleGrouped];
 
@@ -18,6 +18,7 @@
         self.tableView = [[UITableView alloc] init];
         self.tableView.delegate = self;
         self.tableView.dataSource = self;
+        self.correctAnswersArray = results;
     }
 
     return self;
@@ -36,6 +37,8 @@
 
     return cell;
 }
+
+
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cab9b59e-d6c5-4e7e-a652-9c5763978f3e" name="Default" comment="" />
+    <list default="true" id="cab9b59e-d6c5-4e7e-a652-9c5763978f3e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMCombinationCalculator.h" afterPath="$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMCombinationCalculator.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMCombinationCalculator.m" afterPath="$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMCombinationCalculator.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMResultListViewController.h" afterPath="$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMResultListViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMResultListViewController.m" afterPath="$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMResultListViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMStartButonViewController.m" afterPath="$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMStartButonViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="PermutationsApp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,18 +33,18 @@
       <file leaf-file-name="PRMResultListViewController.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMResultListViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1143">
-              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1594">
+              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PRMStartButonViewController.m" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PRMStartButonViewController.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMStartButonViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="1503">
-              <caret line="64" column="112" selection-start-line="64" selection-start-column="112" selection-end-line="64" selection-end-column="112" />
+            <state vertical-scroll-proportion="0.8453815" vertical-offset="584" max-vertical-offset="1548">
+              <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -66,18 +73,8 @@
       <file leaf-file-name="PRMResultListViewController.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMResultListViewController.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="543">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
               <caret line="2" column="107" selection-start-line="2" selection-start-column="107" selection-end-line="2" selection-end-column="107" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PRMPermutationCreator.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMPermutationCreator.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="644" max-vertical-offset="1668">
-              <caret line="60" column="63" selection-start-line="60" selection-start-column="63" selection-end-line="60" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -86,17 +83,17 @@
       <file leaf-file-name="PRMCombinationCalculator.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMCombinationCalculator.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="1413">
-              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1879">
+              <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PRMCombinationCalculator.h" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PRMCombinationCalculator.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMCombinationCalculator.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18072289" vertical-offset="0" max-vertical-offset="573">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="689">
               <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
               <folding />
             </state>
@@ -147,10 +144,10 @@
         <option value="$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMCreatePermutationLists.m" />
         <option value="$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMPermutationCreator.h" />
         <option value="$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMPermutationCreator.m" />
-        <option value="$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMCombinationCalculator.m" />
-        <option value="$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMStartButonViewController.m" />
-        <option value="$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMResultListViewController.m" />
         <option value="$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMCombinationCalculator.h" />
+        <option value="$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMCombinationCalculator.m" />
+        <option value="$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMResultListViewController.m" />
+        <option value="$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMStartButonViewController.m" />
       </list>
     </option>
   </component>
@@ -457,14 +454,14 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4251309" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4251309" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30366492" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25377643" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25377643" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -715,42 +712,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMPermutationCreator.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="644" max-vertical-offset="1715">
-          <caret line="60" column="63" selection-start-line="60" selection-start-column="63" selection-end-line="60" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMCombinationCalculator.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="1413">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMResultListViewController.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
           <caret line="2" column="107" selection-start-line="2" selection-start-column="107" selection-end-line="2" selection-end-column="107" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMResultListViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="1143">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMStartButonViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="1503">
-          <caret line="64" column="112" selection-start-line="64" selection-start-column="112" selection-end-line="64" selection-end-column="112" />
           <folding />
         </state>
       </provider>
@@ -773,8 +738,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMCombinationCalculator.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18072289" vertical-offset="0" max-vertical-offset="573">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="689">
           <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMPermutationCreator.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28318584" vertical-offset="644" max-vertical-offset="2074">
+          <caret line="60" column="63" selection-start-line="60" selection-start-column="63" selection-end-line="60" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMCombinationCalculator.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1879">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermutationsApp/Source/Showing the results that equal 11/PRMResultListViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1594">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermutationsApp/Source/Application start-up/PRMStartButonViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8453815" vertical-offset="584" max-vertical-offset="1548">
+          <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
           <folding />
         </state>
       </provider>

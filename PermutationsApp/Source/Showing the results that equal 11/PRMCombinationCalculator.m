@@ -2,6 +2,7 @@
 
 @interface PRMCombinationCalculator ()
 @property(nonatomic, strong) UIWebView *webview;
+@property(nonatomic, strong) NSMutableArray * results;
 @end
 
 @implementation PRMCombinationCalculator
@@ -13,12 +14,13 @@
     if (self)
     {
         self.webview = [[UIWebView alloc] init];
+        self.results = [[NSMutableArray alloc] init];
     }
 
     return self;
 }
 
-- (void)startCalculatingWithNumberPermutations:(NSMutableArray *)numbers operatorPermutations:(NSMutableArray *)operations
+- (NSMutableArray *)startCalculatingWithNumberPermutations:(NSMutableArray *)numbers operatorPermutations:(NSMutableArray *)operations
 {
     for (NSUInteger i = 0; i < [numbers count]; i++)
     {
@@ -27,6 +29,8 @@
             [self calculateNumberPermutation:numbers[i] withOperationPermutation:operations[j]];
         }
     }
+    
+    return self.results;
 }
 
 - (void)calculateNumberPermutation:(NSMutableArray *)numbers withOperationPermutation:(NSMutableArray *)operations
@@ -56,7 +60,7 @@
     if ([result isEqualToString:@"11"])
     {
         NSLog(@"11 gevonden! with %@", calculation);
-        [self.delegate addValidCalculationToResultArray:calculation];
+        [self.results addObject:calculation];
     }
 }
 
