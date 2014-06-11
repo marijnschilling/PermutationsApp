@@ -1,0 +1,17 @@
+platform :ios, '7.0'
+# inhibit_all_warnings!
+
+xcodeproj 'PermutationsApp'
+
+target :PermutationsApp, :exclusive => true do
+  pod 'EEEOperationCenter'
+  pod 'EEEManualLayout'
+  pod 'TwelveTwentyToolkit'
+
+  pod 'AFNetworking'
+end
+
+target :PermutationsAppTests, :exclusive => true do
+    pod 'Kiwi/XCTest'
+end
+

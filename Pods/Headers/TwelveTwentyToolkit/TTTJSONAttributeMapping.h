@@ -1,0 +1,1 @@
+../../TwelveTwentyToolkit/TwelveTwentyToolkit/Persistence/TTTJSONAttributeMapping.h

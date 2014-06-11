@@ -1,0 +1,1 @@
+../../TwelveTwentyToolkit/TwelveTwentyToolkit/Layout/UIImage+TTTResizing.h
