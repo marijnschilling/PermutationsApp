@@ -2,6 +2,6 @@
 
 @interface PRMCombinationCalculator : NSObject
 
-- (NSMutableArray *)startCalculatingWithNumberPermutations:(NSMutableArray *)numbers operatorPermutations:(NSMutableArray *)operations;
+- (NSMutableArray *)startCalculatingNumberPermutations:(NSMutableArray *)numbers withOperatorPermutations:(NSMutableArray *)operations;
 
 @end

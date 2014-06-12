@@ -1,8 +1,10 @@
 #import "PRMCombinationCalculator.h"
 
 @interface PRMCombinationCalculator ()
+
 @property(nonatomic, strong) UIWebView *webview;
-@property(nonatomic, strong) NSMutableArray * results;
+@property(nonatomic, strong) NSMutableArray * resultsThatEqual11;
+
 @end
 
 @implementation PRMCombinationCalculator
@@ -14,13 +16,13 @@
     if (self)
     {
         self.webview = [[UIWebView alloc] init];
-        self.results = [[NSMutableArray alloc] init];
+        self.resultsThatEqual11 = [[NSMutableArray alloc] init];
     }
 
     return self;
 }
 
-- (NSMutableArray *)startCalculatingWithNumberPermutations:(NSMutableArray *)numbers operatorPermutations:(NSMutableArray *)operations
+- (NSMutableArray *)startCalculatingNumberPermutations:(NSMutableArray *)numbers withOperatorPermutations:(NSMutableArray *)operations
 {
     for (NSUInteger i = 0; i < [numbers count]; i++)
     {
@@ -30,7 +32,7 @@
         }
     }
     
-    return self.results;
+    return self.resultsThatEqual11;
 }
 
 - (void)calculateNumberPermutation:(NSMutableArray *)numbers withOperationPermutation:(NSMutableArray *)operations
@@ -38,8 +40,8 @@
     NSMutableString *operation = [NSMutableString string];
     for(NSUInteger i = 0; i < [operations count]; i++)
     {
-        NSString *newString = [NSString stringWithFormat:@"%@%@%@", operation, numbers[i], operations[i]];
-        operation = [newString mutableCopy];
+        NSString *addedNumberAndOperator = [NSString stringWithFormat:@"%@%@%@", operation, numbers[i], operations[i]];
+        operation = [addedNumberAndOperator mutableCopy];
     }
     NSString *calculation = [NSString stringWithFormat:@"%@%@",operation,[numbers lastObject]];
 
@@ -50,7 +52,7 @@
     if ([result isEqualToString:@"11"])
     {
         NSString *calculationWithResult = [NSString stringWithFormat:@"%@ = %@", calculation, result];
-        [self.results addObject:calculationWithResult];
+        [self.resultsThatEqual11 addObject:calculationWithResult];
     }
 }
 

@@ -11,6 +11,7 @@
 
 @property(nonatomic, strong) NSMutableArray *numberPermutations;
 @property(nonatomic, strong) NSMutableArray *operationPermutations;
+
 @end
 
 @implementation PRMStartButonViewController
@@ -62,9 +63,10 @@
 - (void)didTapStartButton
 {
     PRMCombinationCalculator *combinationCalculator = [[PRMCombinationCalculator alloc] init];
-    NSMutableArray *results = [combinationCalculator startCalculatingWithNumberPermutations: self.numberPermutations operatorPermutations:self.operationPermutations];
+    NSMutableArray *resultsThatEqual11 = [combinationCalculator startCalculatingNumberPermutations:self.numberPermutations
+                                                               withOperatorPermutations:self.operationPermutations];
 
-    PRMResultListViewController *resultListViewController = [[PRMResultListViewController alloc] initWithResults: results];
+    PRMResultListViewController *resultListViewController = [[PRMResultListViewController alloc] initWithResultsThatEqual11:resultsThatEqual11];
     
     [self.navigationController pushViewController:resultListViewController animated:YES];
 }

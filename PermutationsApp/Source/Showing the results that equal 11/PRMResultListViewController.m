@@ -2,12 +2,13 @@
 
 @interface PRMResultListViewController ()
 
-@property(nonatomic, strong) NSMutableArray *correctAnswersArray;
+@property(nonatomic, strong) NSMutableArray *answers;
+
 @end
 
 @implementation PRMResultListViewController
 
-- (id)initWithResults:(NSMutableArray *)results
+- (id)initWithResultsThatEqual11:(NSMutableArray *)results
 {
     self = [super initWithStyle:UITableViewStyleGrouped];
 
@@ -17,7 +18,7 @@
         self.tableView = [[UITableView alloc] init];
         self.tableView.delegate = self;
         self.tableView.dataSource = self;
-        self.correctAnswersArray = results;
+        self.answers = results;
     }
 
     return self;
@@ -33,7 +34,7 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
 
-    cell.textLabel.text = [self.correctAnswersArray objectAtIndex:(NSUInteger) indexPath.row];
+    cell.textLabel.text = [self.answers objectAtIndex:(NSUInteger) indexPath.row];
     cell.accessoryType = UITableViewCellAccessoryCheckmark;
 
     return cell;
@@ -41,7 +42,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [self.correctAnswersArray count];
+    return [self.answers count];
 }
 
 @end
