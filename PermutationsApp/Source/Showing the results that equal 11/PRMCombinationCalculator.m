@@ -43,13 +43,14 @@
     }
     NSString *calculation = [NSString stringWithFormat:@"%@%@",operation,[numbers lastObject]];
 
-    NSString *javaScriptString = [NSString stringWithFormat:@"eval(%@)", calculation];
-    NSString *result = [self.webview stringByEvaluatingJavaScriptFromString:javaScriptString];
+    NSString *javaScript = [NSString stringWithFormat:@"eval(%@)", calculation];
+    NSString *result = [self.webview stringByEvaluatingJavaScriptFromString:javaScript];
+
 
     if ([result isEqualToString:@"11"])
     {
-        NSLog(@"11 gevonden! with %@", calculation);
-        [self.results addObject:calculation];
+        NSString *calculationWithResult = [NSString stringWithFormat:@"%@ = %@", calculation, result];
+        [self.results addObject:calculationWithResult];
     }
 }
 

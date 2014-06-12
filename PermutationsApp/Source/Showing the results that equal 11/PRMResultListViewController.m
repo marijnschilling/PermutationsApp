@@ -33,8 +33,7 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
 
-    NSString *correctAnswer = [self.correctAnswersArray objectAtIndex:(NSUInteger) indexPath.row];
-    cell.textLabel.text = [NSString stringWithFormat:@"%@ = 11", correctAnswer];
+    cell.textLabel.text = [self.correctAnswersArray objectAtIndex:(NSUInteger) indexPath.row];
     cell.accessoryType = UITableViewCellAccessoryCheckmark;
 
     return cell;
