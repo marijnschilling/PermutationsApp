@@ -35,24 +35,13 @@
 
 - (void)calculateNumberPermutation:(NSMutableArray *)numbers withOperationPermutation:(NSMutableArray *)operations
 {
-//    NSMutableString *operation = [NSMutableString string];
-//    for(NSUInteger i = 0; i < [operations count]; i++)
-//    {
-//        operation = [operation stringByAppendingString:(NSMutableString *)numbers[i]];
-//        operation = [operation stringByAppendingString:(NSMutableString *)operations[i]];
-//    }
-
-    NSString *n1 = numbers[0];
-    NSString *n2 = numbers[1];
-    NSString *n3 = numbers[2];
-    NSString *n4 = numbers[3];
-    NSString *n5 = numbers[4];
-
-    NSString *o1 = operations[0];
-    NSString *o2 = operations[1];
-    NSString *o3 = operations[2];
-    NSString *o4 = operations[3];
-    NSString *calculation = [NSString stringWithFormat:@"%@%@%@%@%@%@%@%@%@", n1, o1, n2, o2, n3, o3, n4, o4, n5];
+    NSMutableString *operation = [NSMutableString string];
+    for(NSUInteger i = 0; i < [operations count]; i++)
+    {
+        NSString *newString = [NSString stringWithFormat:@"%@%@%@", operation, numbers[i], operations[i]];
+        operation = [newString mutableCopy];
+    }
+    NSString *calculation = [NSString stringWithFormat:@"%@%@",operation,[numbers lastObject]];
 
     NSString *javaScriptString = [NSString stringWithFormat:@"eval(%@)", calculation];
     NSString *result = [self.webview stringByEvaluatingJavaScriptFromString:javaScriptString];
