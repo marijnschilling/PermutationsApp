@@ -1,7 +1,10 @@
 #import "PRMCombinationCalculator.h"
 
 @interface PRMCombinationCalculator ()
+
 @property(nonatomic, strong) UIWebView *webview;
+@property(nonatomic, strong) NSMutableArray * resultsThatEqual11;
+
 @end
 
 @implementation PRMCombinationCalculator
@@ -13,12 +16,13 @@
     if (self)
     {
         self.webview = [[UIWebView alloc] init];
+        self.resultsThatEqual11 = [[NSMutableArray alloc] init];
     }
 
     return self;
 }
 
-- (void)startCalculatingWithNumberPermutations:(NSMutableArray *)numbers operatorPermutations:(NSMutableArray *)operations
+- (NSMutableArray *)startCalculatingNumberPermutations:(NSMutableArray *)numbers withOperatorPermutations:(NSMutableArray *)operations
 {
     for (NSUInteger i = 0; i < [numbers count]; i++)
     {
@@ -27,36 +31,28 @@
             [self calculateNumberPermutation:numbers[i] withOperationPermutation:operations[j]];
         }
     }
+    
+    return self.resultsThatEqual11;
 }
 
 - (void)calculateNumberPermutation:(NSMutableArray *)numbers withOperationPermutation:(NSMutableArray *)operations
 {
-//    NSMutableString *operation = [NSMutableString string];
-//    for(NSUInteger i = 0; i < [operations count]; i++)
-//    {
-//        operation = [operation stringByAppendingString:(NSMutableString *)numbers[i]];
-//        operation = [operation stringByAppendingString:(NSMutableString *)operations[i]];
-//    }
+    NSMutableString *operation = [NSMutableString string];
+    for(NSUInteger i = 0; i < [operations count]; i++)
+    {
+        NSString *addedNumberAndOperator = [NSString stringWithFormat:@"%@%@%@", operation, numbers[i], operations[i]];
+        operation = [addedNumberAndOperator mutableCopy];
+    }
+    NSString *calculation = [NSString stringWithFormat:@"%@%@",operation,[numbers lastObject]];
 
-    NSString *n1 = numbers[0];
-    NSString *n2 = numbers[1];
-    NSString *n3 = numbers[2];
-    NSString *n4 = numbers[3];
-    NSString *n5 = numbers[4];
+    NSString *javaScript = [NSString stringWithFormat:@"eval(%@)", calculation];
+    NSString *result = [self.webview stringByEvaluatingJavaScriptFromString:javaScript];
 
-    NSString *o1 = operations[0];
-    NSString *o2 = operations[1];
-    NSString *o3 = operations[2];
-    NSString *o4 = operations[3];
-    NSString *calculation = [NSString stringWithFormat:@"%@%@%@%@%@%@%@%@%@", n1, o1, n2, o2, n3, o3, n4, o4, n5];
-
-    NSString *javaScriptString = [NSString stringWithFormat:@"eval(%@)", calculation];
-    NSString *result = [self.webview stringByEvaluatingJavaScriptFromString:javaScriptString];
 
     if ([result isEqualToString:@"11"])
     {
-        NSLog(@"11 gevonden! with %@", calculation);
-        [self.delegate addValidCalculationToResultArray:calculation];
+        NSString *calculationWithResult = [NSString stringWithFormat:@"%@ = %@", calculation, result];
+        [self.resultsThatEqual11 addObject:calculationWithResult];
     }
 }
 

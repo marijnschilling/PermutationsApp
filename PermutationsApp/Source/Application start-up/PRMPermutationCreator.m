@@ -17,6 +17,7 @@
     {
         self.numbers = @[@2, @4, @8, @16, @32];
         self.operators = @[@"+", @"-", @"*", @"/"];
+
         self.numberPermutations = [NSMutableArray array];
         self.operationPermutations = [NSMutableArray array];
     }

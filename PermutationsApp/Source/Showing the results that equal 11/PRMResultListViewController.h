@@ -2,4 +2,5 @@
 
 @interface PRMResultListViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource>
 
+- (id)initWithResultsThatEqual11:(NSMutableArray *)results;
 @end
